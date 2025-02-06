@@ -42,7 +42,7 @@
                         <span class="btn-add-carros" onclick="add_carro()">+ Adicionar um carro</span>
                         #TODO: remover carros
                         <div id="form-carro">
-                            {% for carro, placa, ano in carros%}
+                            {% for carro, placa, ano in carros %}
                                     <br>
                                     <div class="row">
                                         <div class="col-md">
@@ -58,7 +58,7 @@
                                         </div>
 
                                     </div>
-                            {% endfor%}
+                            {% endfor %}
                         </div>
 
                     </div>
@@ -104,4 +104,4 @@
 
     </div>
     <script src="{% static 'clientes/js/clientes.js' %}"></script>
-{% endblock%}
+{% endblock %}
