@@ -16,9 +16,9 @@ function exibir_form(tipo){
         att_cliente.style.display = "none"
         add_cliente.style.display = "block"
 
-    }else if(tipo == "2"){
-        add_cliente.style.display = "none";
+    }else if(tipo == "2"){       
         att_cliente.style.display = "block"
+        add_cliente.style.display = "none"
     }
 
 }
